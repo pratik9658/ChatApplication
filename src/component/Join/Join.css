@@ -1,0 +1,64 @@
+.JoinPage {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JoinContainer {
+    /* border: 2px solid white; */
+    /* height: 50%; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JoinContainer img {
+    width: 10vmax;
+    border: solid;
+    border-radius: 50%;
+}
+
+.JoinContainer>h1 {
+    color: white;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 1.5vmax;
+    width: 25vmax;
+    border-bottom: .2vmax solid white;
+    text-align: center;
+    padding: 1vmax;
+    box-sizing: border-box;
+}
+
+#joinInput {
+    width: 25vmax;
+    margin: 2vmax;
+    padding: 1vmax;
+    border: none;
+    font-family: 'Ibarra Real Nova', serif;
+    outline: none;
+    font-size: 1.2vmax;
+    box-sizing: border-box;
+}
+
+.joinBtn {
+    width: 25vmax;
+    color: rgb(0, 0, 0);
+    padding: 1vmax;
+    cursor: pointer;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    box-sizing: border-box;
+    transition: all ease .5s;
+}
+
+.joinBtn:hover {
+    background-color: rgb(111, 0, 0);
+    color: rgb(255, 255, 255);
+}
